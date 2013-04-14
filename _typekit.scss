@@ -1,0 +1,136 @@
+// Adelle
+// ======================================
+// ======================================
+
+@mixin adelle($w:400, $s:normal) {
+
+//    Normal Weights ====================
+//
+//    			  Thin  |  100
+//    	 		 Light  |  300
+//    		   Regular  |  400
+//    		  Semibold  |  600
+//    		      Bold  |  700
+//    		Extra Bold  |  800
+//    		     Heavy  |  900
+
+//    Italic Weights ====================
+//
+//  	   Thin Italic  |  100
+//  	  Light Italic  |  300
+//  		    Italic  |  400
+//     Semibold Italic  |  600
+//  	   Bold Italic  |  700
+//     Ext Bold Italic  |  800
+//  	  Heavy Italic  |  900
+
+	font-family: "adelle", serif;
+	font-style: $s;
+  	font-weight: $w;
+}
+
+// Chaparral Pro
+// ======================================
+// ======================================
+
+@include chaparral-pro($w:400, $s:normal) {
+
+//    Normal Weights ====================
+//
+//    	 		 Light  |  300
+//    		   Regular  |  400
+//    		  Semibold  |  600
+//    		      Bold  |  700
+
+//    Italic Weights ====================
+//
+//  	  Light Italic  |  300
+//      Regular Italic  |  400
+//     Semibold Italic  |  600
+//  	   Bold Italic  |  700
+	
+	font-family: "chaparral-pro", serif;
+	font-style: $s;
+	font-weight: $w;
+}
+
+// FF Meta Web Pro
+// ======================================
+// ======================================
+
+@mixin ff-meta-web-pro($w:400, $s:normal) {
+
+//    Normal Weights ====================
+//  
+//    		   Regular  |  400
+//    		      Bold  |  700
+
+//    Italic Weights ====================
+//
+//  		    Italic  |  400
+//  	   Bold Italic  |  700
+
+  font-family: "ff-meta-web-pro", sans-serif;
+  font-style: $s;
+  font-weight: $w;
+}
+
+// Freight Sans Pro
+// ======================================
+// ======================================
+
+@mixin freight-sans-pro($w:400, $s:normal) {
+
+//    Normal Weights ====================
+//   
+//    	 		 Light  |  300
+//    		      Book  |  400
+//    		    Medium  |  500
+//    		  Semibold  |  600
+//    		      Bold  |  700
+//    		     Black  |  900
+
+//    Italic Weights ====================
+//   
+//  	  Light Italic  |  300
+//  	   Book Italic  |  400
+//  	   	    Medium  |  500
+//     Semibold Italic  |  600
+//  	   Bold Italic  |  700
+//  	  Black Italic  |  900
+
+	font-family: "freight-sans-pro", sans-serif;
+	font-style: $s;
+	font-weight: $w;
+}
+
+// Proxima Nova
+// ======================================
+// ======================================
+
+@mixin proxima-nova($w:400, $s:normal) {
+
+//    Normal Weights ====================
+//
+//    			  Thin  |  100
+//    	 		 Light  |  300
+//    		   Regular  |  400
+//    		  Semibold  |  600
+//    		      Bold  |  700
+//    		Extra Bold  |  800
+//    		     Black  |  900
+
+//    Italic Weights ====================
+//
+//  	   Thin Italic  |  100
+//  	  Light Italic  |  300
+//   	Regualr Italic  |  400
+//     Semibold Italic  |  600
+//  	   Bold Italic  |  700
+//     Ext Bold Italic  |  800
+//  	  Black Italic  |  900	
+
+	font-family: "proxima-nova", sans-serif;
+	font-style: $s;
+	font-weight: $w;
+}

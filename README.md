@@ -1,4 +1,10 @@
-typekit-reference-and-scss
-==========================
+# Typekit Font Mixins + Weight Reference
 
-SCSS file that contains mixins for Typekit fonts, including a cheat sheet of available weights and styles for each.
+This SCSS partial contains mixins for Typekit fonts, including a cheat sheet of available weights and styles for each.
+
+## Fonts Included in this Partial
+* Adelle
+* Chaparral Pro
+* FF Meta Web Pro
+* Freight Sans Pro
+* Proxima Nova
